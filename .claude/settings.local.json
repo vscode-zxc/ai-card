@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bash \"C:/Users/zhangxianchao/.claude/skills/brainstorming/scripts/start-server.sh\" --project-dir \"C:/Users/zhangxianchao/Desktop/code/ai-card\")",
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(npx vite *)",
+      "Bash(python c:/Users/zhangxianchao/.claude/skills/webapp-testing/scripts/with_server.py --help)",
+      "Bash(python -c \"from playwright.sync_api import sync_playwright; print\\('playwright ok'\\)\")",
+      "Bash(node -e \"const {chromium} = require\\('playwright'\\); console.log\\('ok'\\)\")",
+      "Bash(npx playwright *)",
+      "Bash(curl -s http://localhost:5175/)",
+      "Bash(node -e ' *)",
+      "Bash(node test-loading.cjs)",
+      "Bash(node test-feedback.cjs)",
+      "Bash(node test-wrong.cjs)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git config *)"
+    ]
+  }
+}

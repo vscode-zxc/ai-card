@@ -1,0 +1,56 @@
+<h2>答题反馈动画风格</h2>
+<p class="subtitle">答对 / 答错时弹出的全屏反馈，哪种感觉更适合 2-3 岁宝宝？</p>
+
+<div class="cards">
+
+  <div class="card" data-choice="confetti" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:linear-gradient(135deg,#FFF0F7,#FFFDE7);border-radius:8px;min-height:150px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;position:relative;overflow:hidden">
+      <div style="position:absolute;top:8px;left:12px;font-size:18px;opacity:.5">🎊</div>
+      <div style="position:absolute;top:10px;right:10px;font-size:14px;opacity:.6">⭐</div>
+      <div style="position:absolute;bottom:10px;left:8px;font-size:16px;opacity:.4">🌟</div>
+      <div style="font-size:40px">🎉</div>
+      <div style="background:linear-gradient(90deg,#FF69B4,#FFD700);-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-size:18px;font-weight:bold">太棒了！</div>
+      <div style="font-size:12px;color:#888">彩带从四周飞入</div>
+    </div>
+    <div class="card-body">
+      <h3>A · 全屏彩带爆炸</h3>
+      <p>答对时彩带/星星从四角喷出，覆盖整个屏幕，配合大字"恭喜，小朋友太棒了！"，视觉冲击强烈，成就感满满。答错时红色震动 + "再想想"提示。</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="popup" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:rgba(0,0,0,.3);border-radius:8px;min-height:150px;display:flex;align-items:center;justify-content:center">
+      <div style="background:white;border-radius:20px;padding:16px 24px;text-align:center;box-shadow:0 8px 24px rgba(0,0,0,.2);transform:scale(1.05)">
+        <div style="font-size:36px">🌟</div>
+        <div style="font-size:16px;font-weight:bold;color:#FF69B4;margin:6px 0">恭喜！太棒了</div>
+        <div style="font-size:11px;color:#aaa">小朋友超厉害</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B · 居中弹窗卡片</h3>
+      <p>答对时从屏幕中心弹出一张圆角卡片，带缩放+弹跳动画，背景半透明遮罩。答错时卡片变红色震动。不完全遮挡画面，宝宝还能看到选了哪个格子。</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="topbanner" onclick="toggleSelect(this)">
+    <div class="card-image" style="background:#FEF9EF;border-radius:8px;min-height:150px;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;overflow:hidden">
+      <div style="background:linear-gradient(90deg,#4CAF50,#8BC34A);color:white;padding:12px 16px;width:100%;box-sizing:border-box;display:flex;align-items:center;gap:8px">
+        <span style="font-size:22px">✅</span>
+        <span style="font-size:14px;font-weight:bold">恭喜！小朋友太棒了 🎉</span>
+      </div>
+      <div style="padding:10px;font-size:11px;color:#aaa">题目图片仍然可见</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px;padding:4px;flex:1">
+        <div style="background:#B0E0FF;border-radius:6px;min-height:40px"></div>
+        <div style="background:#B5EAD7;border-radius:6px;border:2px solid #4CAF50"></div>
+        <div style="background:#FFDAC1;border-radius:6px;min-height:40px"></div>
+        <div style="background:#FFD6E7;border-radius:6px;min-height:40px"></div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C · 顶部横幅提示</h3>
+      <p>答对/错后从顶部滑入一条横幅通知，不遮挡图片，宝宝可以清楚看到自己选了哪个格子，同时底部"下一题"按钮解锁。动画轻巧克制。</p>
+    </div>
+  </div>
+
+</div>
+<p class="subtitle" style="margin-top:12px">点击选择，或在终端告诉我 🎨</p>
