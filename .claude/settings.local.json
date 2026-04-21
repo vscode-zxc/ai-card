@@ -17,7 +17,16 @@
       "Bash(node test-wrong.cjs)",
       "Bash(git add *)",
       "Bash(git commit *)",
-      "Bash(git config *)"
+      "Bash(git config *)",
+      "Bash(powershell -Command \"Compress-Archive -Path dist/* -DestinationPath ai-card-dist.zip -Force\")",
+      "Bash(git remote *)",
+      "Bash(git branch *)",
+      "Bash(git push *)",
+      "Bash(gh --version)",
+      "Bash(jobs)",
+      "Bash(git credential *)",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Program Files \\(x86\\)/**)"
     ]
   }
 }
